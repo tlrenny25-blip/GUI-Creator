@@ -15,7 +15,7 @@ mainFrame.Draggable = true
 local closeBtn = Instance.new("TextButton", mainFrame)
 closeBtn.Size = UDim2.new(0, 30, 0, 30)
 closeBtn.Position = UDim2.new(1, -35, 0, 5)
-closeBtn.Text = "✖"
+closeBtn.Text = ""
 closeBtn.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
 closeBtn.MouseButton1Click:Connect(function()
     gui:Destroy()
